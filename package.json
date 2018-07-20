@@ -1,0 +1,26 @@
+{
+  "name": "hubot-doge-cal-availability-bot",
+  "version": "1.0.0",
+  "description": "hubot calendar bot that allows users to query eachother's availability and gets returned available slots where both users can meet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ith-harvey/hubot-doge-cal-availability-bot.git"
+  },
+  "author": "ith-harvey",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ith-harvey/hubot-doge-cal-availability-bot/issues"
+  },
+  "homepage": "https://github.com/ith-harvey/hubot-doge-cal-availability-bot#readme",
+  "dependencies": {
+    "hubot-doge-utility-functions": "^1.4.2",
+    "ical2json": "^1.2.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "request-promise": "^4.2.2"
+  }
+}
